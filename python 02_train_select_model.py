@@ -61,7 +61,7 @@ models = {
         random_state=42
     ),
 
-    "Gradient Boosting": GradientBoostingClassifier(s
+    "Gradient Boosting": GradientBoostingClassifier(
         n_estimators=150,
         learning_rate=0.1,
         random_state=42
